@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Accordion from './Components/Accordion'
+import './CSS/style.css'
 const App = () => {
     return (
         <div>
-            <h1> test success</h1>
+           <Accordion/>
         </div>
     )
 }
