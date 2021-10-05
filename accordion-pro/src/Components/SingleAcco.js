@@ -6,12 +6,12 @@ const SingleAcco = ({id, info, title}) => {
        <article>
        
            <section className="item-container">
-               <section>
-               <h3>{title}</h3>
-               <p>{info}</p>
+               <section className="details">
+               <h3 className="body-title">{title}</h3>
+               <p>{isClicked? <p className="info"> {info} </p> : "" }</p>
                </section>
                <section>
-                   <button>{isClicked?<GrClose/> : <GrAdd/>}</button>
+                   <button className="check" onClick={()=>setIsClicked(!isClicked)}>{isClicked?<GrClose/> : <GrAdd/>}</button>
                </section>
                 </section>
        </article>

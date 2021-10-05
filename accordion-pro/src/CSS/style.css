@@ -17,6 +17,7 @@ body{
    background-color: rgb(233, 233, 233);
    margin: 2rem auto 0 auto;
    font-family: monospace;
+ margin-bottom: 7rem;
    
 
 }
@@ -42,10 +43,11 @@ body{
   padding: 2rem;
     margin: 20px;
     width: 60vw;
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-left:auto;
     margin-right: auto;
     display: flex;
+    box-shadow: 1px 10px 10px gray;
     
     
 
@@ -58,6 +60,7 @@ position: relative;
 padding: 2rem;
 
 
+
  }
 
  .body-title{
@@ -66,8 +69,9 @@ padding: 2rem;
  .info{
      font-size: 1.3rem;
      letter-spacing: 0.1rem;
-     margin: 20px 100px 0 0;
+     margin: 2rem 100px 0 0;
      padding: 0.3rem 0.4rem;
+     text-align:justify;
    
  }
 
@@ -79,11 +83,18 @@ font-size: 4rem;
  border:none;
  margin-top:auto;
  margin-bottom: auto;
- margin-left: 60%
+ margin-left: 60%;
+
  
  }
  .check{
-     display: flex;
+     background-color: transparent;
+     outline: none;
+     border: none;
+    font-size: 1rem;
+    color: aqua;
+    position: absolute;
+    left: 75vw;
  }
 
 
