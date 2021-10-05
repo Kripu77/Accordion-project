@@ -7,7 +7,7 @@ const Accordion = () => {
   console.log(questions);
   return (
     <main> 
-      <h1 className="title"> Why you should learn JavaScript?</h1>
+      <h1 className="title"> Some cool concpets of JavaScript</h1>
       <div className="bar"></div>
      <section className="container">
        
