@@ -1,12 +1,19 @@
-import React from 'react'
-import { IconName } from "react-icons/gr";
+import React, {useState} from 'react'
+import { GrAdd, GrClose} from "react-icons/gr";
 const SingleAcco = ({id, info, title}) => {
+    const[isClicked, setIsClicked]= useState(false);
     return (
        <article>
        
-           <div className="item-container">
-
-           </div>
+           <section className="item-container">
+               <section>
+               <h3>{title}</h3>
+               <p>{info}</p>
+               </section>
+               <section>
+                   <button>{isClicked?<GrClose/> : <GrAdd/>}</button>
+               </section>
+                </section>
        </article>
     )
 }

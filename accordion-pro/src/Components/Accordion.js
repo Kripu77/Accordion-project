@@ -10,7 +10,7 @@ const Accordion = () => {
       <h1 className="title"> Why you should learn JavaScript?</h1>
       <div className="bar"></div>
      <section className="container">
-          <h2>Why you should learn JavaScript </h2>
+       
        {questions.map((value)=>{
       const {id, info, title} =  value;
          return (
